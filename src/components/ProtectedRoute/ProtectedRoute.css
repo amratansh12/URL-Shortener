@@ -1,0 +1,20 @@
+.userNotLoggedIn{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    margin: 100px auto;
+    width: 400px;
+    color: #75c9b7;
+    border: 1px solid white;
+    background-color: black;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .userNotLoggedIn{
+        font-size: 20px;
+        width: 200px;
+    }
+}

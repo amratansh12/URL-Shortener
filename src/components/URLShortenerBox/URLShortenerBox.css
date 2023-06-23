@@ -1,0 +1,93 @@
+.urlShortenerBox{
+    background-color: black;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 50%;
+    margin: 100px auto;
+    height: 20rem;
+    color: #F1F6F9;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.urlShortenerBox a{
+    margin: 0 auto;
+    cursor: pointer;
+    color: #e0fbfc;
+    /* text-decoration: underline; */
+}
+
+.urlShortenerBox input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.submitButton{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    background-color: #75c9b7;
+    width: 40%;
+    margin: 0px auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: #e0fbfc;
+}
+
+.urlShortenerBox input:focus{
+    color: black;
+    background-color: #e0fbfc;
+    outline: none;
+}
+
+.copyButton{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    color: black;
+    background-color: #e0fbfc;
+    width: 6rem;
+    margin: 0px auto;
+}
+
+.copyButton:hover{
+    background-color: black;
+    color: #F1F6F9;
+}
+
+.copyButton:active{
+    background-color: black;
+}
+
+.results{
+    display: flex;
+    gap: 10px;
+    margin: 20px auto 0px auto;
+}
+
+@media screen and (max-width: 500px) {
+    .results{
+        flex-direction: column;
+    }
+}
+
+
+

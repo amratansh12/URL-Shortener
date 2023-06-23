@@ -1,0 +1,39 @@
+.welcomeBox{
+    background-color: black;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 50%;
+    margin: 100px auto;
+    height: 20rem;
+    color: #e0fbfc;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.welcomeButtons{
+    display: flex;
+    gap: 10px;
+}
+
+.welcomeButtons button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    background-color: #e0fbfc;
+    width: 100px;
+    /* width: 40%; */
+    margin: 0px auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.welcomeButtons button:hover{
+    background-color: #75c9b7;
+}

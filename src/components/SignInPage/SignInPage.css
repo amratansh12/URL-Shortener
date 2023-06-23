@@ -1,0 +1,52 @@
+.signInBox{
+    border: 1px solid #f1f1f1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 50%;
+    margin: 50px auto;
+    height: 25rem;
+    color: #F1F6F9;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.signInBox h2{
+    color: #75c9b7;
+    /* margin-bottom: -10px; */
+    text-decoration: underline;
+}
+
+.signInBox input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+.signInBox input:focus{
+    background-color: black;
+    color: white;
+    /* outline: none; */
+    border: 1px solid #e0fbfc;
+}
+
+.signInBox button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    background-color: #75c9b7;
+    width: 40%;
+    margin: 20px auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signInBox button:hover{
+    background-color: #e0fbfc;
+}
