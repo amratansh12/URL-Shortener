@@ -14,7 +14,7 @@ const URLShortenerBox = () => {
     }
 
     async function onURLSubmit(){
-        fetch('http://localhost:300/url', {
+        fetch('http://localhost:3000/url', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
