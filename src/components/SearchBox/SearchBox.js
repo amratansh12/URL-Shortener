@@ -16,9 +16,9 @@ const SearchBox = () => {
         setIsFocused(false);
     };
 
-    const handleClick = (link) => {
-        window.location.href = link
-    }
+    // const handleClick = (link) => {
+    //     window.location.href = link
+    // }
 
     const onSearch = (event) => {
         setSearchValue(event.target.value);
@@ -43,7 +43,7 @@ const SearchBox = () => {
             {
                 isFocused && responseUrls.map((item, index) => (
                     <>
-                        <div onClick={handleClick(item.shortUrl)} className='options' key={index}>
+                        <div className='options' key={index}>
                             <p>{item.url}</p>
                             <p>{item.shortUrl}</p>
                         </div>
