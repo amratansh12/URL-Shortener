@@ -14,7 +14,7 @@ const URLShortenerBox = () => {
     }
 
     async function onURLSubmit(){
-        fetch('https://url-shortener-api-chi.vercel.app/url', {
+        fetch('http://localhost:300/url', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
