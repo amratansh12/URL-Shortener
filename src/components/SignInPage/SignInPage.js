@@ -12,7 +12,7 @@ const SignInPage = () => {
     function onSignInSubmit (event) {
 
         event.preventDefault();
-        fetch('http://localhost:3001/signin', {
+        fetch('https://url-shortener-api-chi.vercel.app/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

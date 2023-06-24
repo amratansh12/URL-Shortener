@@ -22,7 +22,7 @@ const SearchBox = () => {
 
     const onSearch = (event) => {
         setSearchValue(event.target.value);
-        fetch('http://localhost:3001/search', {
+        fetch('https://url-shortener-api-chi.vercel.app/search', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({

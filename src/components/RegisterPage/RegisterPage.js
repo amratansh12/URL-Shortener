@@ -14,7 +14,7 @@ const RegisterPage = () => {
         event.preventDefault();
 
         try{
-            const response = await fetch('http://localhost:3001/register', {
+            const response = await fetch('https://url-shortener-api-chi.vercel.app/register', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
